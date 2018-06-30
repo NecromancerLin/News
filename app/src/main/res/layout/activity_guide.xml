@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.necromancer.news.activity.GuideActivity">
+    <android.support.v4.view.ViewPager
+    android:id="@+id/mViewPager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:text="开始体验"
+        android:visibility="gone"
+        android:textColor="#fff"/>
+
+    <com.rd.PageIndicatorView
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pageIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:piv_viewPager="@id/mViewPager"
+        app:piv_animationType="worm"/>
+
+</RelativeLayout>

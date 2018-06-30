@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="tip_double_click_exit">再次点击退出</string>
+
+
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+    <string name="setting">设置</string>
+    <string name="copy">复制链接</string>
+    <string name="browser">浏览器中打开</string>
+    <string name="save">保存</string>
+    <string name="setwallpaper">设为壁纸</string>
+    <!--drawer-->
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    <string name="about">关于</string>
+    <string name="one">每日一文</string>
+    <string name="weixin">微信精选</string>
+    <string name="gank">干货热门</string>
+    <string name="eyepetizer">开眼视频</string>
+    <string name="mylike">我的收藏</string>
+
+    <!--setting preferences-->
+    <string name="key_provincial_traffic_patterns">省流量模式</string>
+    <string name="key_night_mode">夜间模式</string>
+    <string name="key_clear_cache">清除缓存</string>
+    <string name="key_version">当前版本</string>
+    <string name="key_homepage">个人主页</string>
+    <string name="exit">退出</string>
+    <string name="video">视频</string>
+    <string name="action_settings">Settings</string>
+
+    <style name="NightAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/nightColorPrimary</item>
+        <item name="colorPrimaryDark">@color/nightColorPrimaryDark</item>
+        <item name="colorAccent">@color/nightColorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="mainBackground">@color/nightColorPrimaryDark</item>
+    </style>
+</resources>
